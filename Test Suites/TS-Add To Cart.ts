@@ -26,10 +26,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>951cb2fc-06e6-4d82-9f03-e46b9dfbb08a</guid>
+      <guid>9176e97a-135e-40aa-a8fa-b8abe82dca02</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Add To Cart/TC-Remove Product From Cart</testCaseId>
+      <testCaseId>Test Cases/Add To Cart/TC-Remove Product In Cart</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

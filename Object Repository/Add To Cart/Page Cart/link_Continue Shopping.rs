@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_Continue Shopping</name>
+   <tag></tag>
+   <elementGuidId>328e53b2-2487-4d2b-aa7c-ff087559dfec</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//article[@id='post-53']/div/div/div[2]/div/div[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.continue-shopping > a.button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>94886e51-5b99-4bb7-b496-5b27a3ab260e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://kotakoki.wijaysali.my.id/shop-2/</value>
+      <webElementGuid>7b6520d5-8f47-4705-99bd-522b1958a6bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>1aae4170-ba33-49f6-a1ab-c94d0838afc4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Continue shopping</value>
+      <webElementGuid>9bcfd247-cdf7-4c86-9b02-575a5daeab57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;post-53&quot;)/div[@class=&quot;entry-content&quot;]/div[@class=&quot;woocommerce&quot;]/div[@class=&quot;cart-collaterals&quot;]/div[@class=&quot;cart_totals&quot;]/div[@class=&quot;continue-shopping&quot;]/a[@class=&quot;button&quot;]</value>
+      <webElementGuid>abb47f31-fbb8-4f8e-85b0-791e872f9801</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//article[@id='post-53']/div/div/div[2]/div/div[2]/a</value>
+      <webElementGuid>b01a06bb-223c-439c-8d13-5e55657c2a3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Continue shopping')]</value>
+      <webElementGuid>f3fd77c7-f1f1-4f48-8aaf-173d2ae3dc31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proceed to checkout'])[1]/following::a[1]</value>
+      <webElementGuid>9d6e343f-1d06-43a5-a506-3498914bd578</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp'])[7]/following::a[2]</value>
+      <webElementGuid>c3c7fea3-bd2b-4238-b146-672a8eb1c43f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Newsletter'])[1]/preceding::a[1]</value>
+      <webElementGuid>76f4d3b9-7b0c-4965-9034-e095c3a16887</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Continue shopping']/parent::*</value>
+      <webElementGuid>08943e1a-9706-4bb0-ac99-3a266c8bd677</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://kotakoki.wijaysali.my.id/shop-2/')])[4]</value>
+      <webElementGuid>3cac83d8-e1f5-4da2-8aa7-0a0443539f47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/a</value>
+      <webElementGuid>ce7feafa-eff1-4822-b067-cb24a2791f22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://kotakoki.wijaysali.my.id/shop-2/' and (text() = 'Continue shopping' or . = 'Continue shopping')]</value>
+      <webElementGuid>ae18ea4d-6287-4c81-928f-869bd9af0e86</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

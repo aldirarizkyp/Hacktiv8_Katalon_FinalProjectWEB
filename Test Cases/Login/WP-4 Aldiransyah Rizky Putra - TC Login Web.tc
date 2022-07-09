@@ -16,4 +16,30 @@ Description: This test case describes the positive case of logging in to the Web
    </integratedEntity>
    <comment></comment>
    <testCaseGuid>f1742884-6cbc-463e-9599-6283e3b64019</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6c7c7434-0f35-484b-a20d-4e9e733a58b4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9d0ddfbc-630e-4b0b-89a5-cdb7a4656f92</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'aldira123'</defaultValue>
+      <description></description>
+      <id>6c7c7434-0f35-484b-a20d-4e9e733a58b4</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'RigbBhfdqOBhBrv0e6YfUQ=='</defaultValue>
+      <description></description>
+      <id>9d0ddfbc-630e-4b0b-89a5-cdb7a4656f92</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
 </TestCaseEntity>

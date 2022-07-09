@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-Adding Different Product to Cart and Verify</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aafb95c3-0f1d-4df1-bc5a-95c2209ada7a</testCaseGuid>
+</TestCaseEntity>

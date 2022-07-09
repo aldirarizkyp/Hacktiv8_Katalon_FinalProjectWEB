@@ -17,4 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFile('Include/features/WP-4 Aldiransyah Rizky Putra - TC Login Web.feature')
+WebUI.callTestCase(findTestCase('Add To Cart/TC-Adding One Product to Cart and Verify'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Add To Cart/Page_Album/link_ViewCart'))
+
+WebUI.verifyElementVisible(findTestObject('Add To Cart/Page Cart/list_Product1(AlbumRp15.000Album quantityRp30.000)'))
+

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>rating_Rated 3 out of 5</name>
+   <tag></tag>
+   <elementGuidId>17c7740a-ff14-49d1-b95f-600e3ec5befd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='comment-46']/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.star-rating</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3bd0e957-6d8f-49a2-bed0-2bd00dd2ee7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>star-rating</value>
+      <webElementGuid>48f21089-2e67-45f8-938e-1b1dbf5704ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>0757d5fb-5110-4d2e-9ba4-fc448f170f32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Rated 3 out of 5</value>
+      <webElementGuid>94ca91ae-bba5-4a52-ac3a-688577fac7ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Rated 3 out of 5</value>
+      <webElementGuid>2aa7a032-5f89-47a1-affd-57d96eecac68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;comment-46&quot;)/div[@class=&quot;comment-text&quot;]/div[@class=&quot;star-rating&quot;]</value>
+      <webElementGuid>5ed3328d-6033-445e-890e-34571b11d154</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='comment-46']/div/div</value>
+      <webElementGuid>01e268b1-56a5-4235-b250-3c1fcb061afd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reviews'])[1]/following::div[3]</value>
+      <webElementGuid>1ddea606-d92e-4344-92ec-786cc3283901</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reviews (0)'])[1]/following::div[6]</value>
+      <webElementGuid>eabc8bcb-b961-49a7-8c9c-9cbda147c2f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your review is awaiting approval'])[1]/preceding::div[1]</value>
+      <webElementGuid>4a36ffaa-c67d-46c0-acf7-2f22c858f0be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ol/li/div/div/div</value>
+      <webElementGuid>c7f672ea-3004-4385-bba4-0d82e4375e5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Rated 3 out of 5' or . = 'Rated 3 out of 5')]</value>
+      <webElementGuid>490494fb-e440-4188-a025-81c47560d702</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

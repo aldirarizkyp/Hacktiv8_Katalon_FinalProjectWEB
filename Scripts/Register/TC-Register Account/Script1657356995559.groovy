@@ -55,3 +55,5 @@ WebUI.click(findTestObject('Register/Page_Register/btn_Register'))
 
 WebUI.verifyElementPresent(findTestObject('Register/Page_MyAccount/txt_Hello  (not  Log out)'), 0)
 
+
+

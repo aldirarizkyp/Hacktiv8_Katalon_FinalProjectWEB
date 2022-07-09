@@ -17,11 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Add To Cart/TC-Check That The Added Product Displayed In The Cart'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Add To Cart/TC-Adding One Product to Cart and Verify'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Add To Cart/Page Cart/btn_RemoveProduct'))
+WebUI.click(findTestObject('Add To Cart/Page_Album/link_ViewCart'))
 
-WebUI.verifyElementVisible(findTestObject('Add To Cart/Page Cart/txt_Your cart is currently empty'))
 
-WebUI.closeBrowser()
+if (WebUI.verifyElementVisible(findTestObject('Add To Cart/Page Cart/list_Product1(AlbumRp15.000Album quantityRp30.000)'))) {
+	WebUI.click(findTestObject('Add To Cart/Page Cart/btn_RemoveProduct'))
+	WebUI.closeBrowser()
+} else {
+	WebUI.verifyElementVisible(findTestObject('Add To Cart/Page Cart/txt_Your cart is currently empty'))
+	WebUI.closeBrowser()
+}
 

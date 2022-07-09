@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC-Register</name>
+   <name>TC-Register Account</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>e2f28019-3427-46a4-9ebc-b518c9cb4c0f</testCaseGuid>

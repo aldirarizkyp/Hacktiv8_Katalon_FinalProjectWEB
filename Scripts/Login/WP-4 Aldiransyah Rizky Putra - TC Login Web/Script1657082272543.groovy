@@ -18,3 +18,24 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/WP-4 Aldiransyah Rizky Putra - TC Login Web.feature')
+
+WebUI.openBrowser(GlobalVariable.url)
+
+WebUI.waitForPageLoad(0)
+
+WebUI.click(findTestObject('MainPageNavbar/btn_Login'))
+
+WebUI.waitForPageLoad(0)
+
+WebUI.click(findTestObject('Login/Page_Login  Kotakoki/input_Username'))
+
+WebUI.setText(findTestObject('Login/Page_Login  Kotakoki/input_Username'), username)
+
+WebUI.click(findTestObject('Login/Page_Login  Kotakoki/input_Password'))
+
+WebUI.setEncryptedText(findTestObject('Login/Page_Login  Kotakoki/input_Password'), password)
+
+WebUI.click(findTestObject('Login/Page_Login  Kotakoki/btn_Login'))
+
+WebUI.verifyElementPresent(findTestObject('Register/Page_MyAccount/txt_Hello  (not  Log out)'), 0)
+

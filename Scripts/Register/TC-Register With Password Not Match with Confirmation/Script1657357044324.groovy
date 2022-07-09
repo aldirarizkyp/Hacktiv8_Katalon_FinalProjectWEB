@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.url)
 
+WebUI.maximizeWindow()
+
 WebUI.waitForPageLoad(0)
 
 WebUI.click(findTestObject('MainPageNavbar/btn_Register Now'))

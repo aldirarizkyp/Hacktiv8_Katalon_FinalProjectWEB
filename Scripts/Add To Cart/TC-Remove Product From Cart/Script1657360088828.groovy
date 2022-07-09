@@ -23,3 +23,5 @@ WebUI.click(findTestObject('Add To Cart/Page Cart/btn_RemoveProduct'))
 
 WebUI.verifyElementVisible(findTestObject('Add To Cart/Page Cart/txt_Your cart is currently empty'))
 
+WebUI.closeBrowser()
+

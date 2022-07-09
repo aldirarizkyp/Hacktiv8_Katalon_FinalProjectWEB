@@ -21,6 +21,8 @@ CucumberKW.runFeatureFile('Include/features/WP-4 Aldiransyah Rizky Putra - TC Lo
 
 WebUI.openBrowser(GlobalVariable.url)
 
+WebUI.maximizeWindow()
+
 WebUI.waitForPageLoad(0)
 
 WebUI.click(findTestObject('MainPageNavbar/btn_Login'))

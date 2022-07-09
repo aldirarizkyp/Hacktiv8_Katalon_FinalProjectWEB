@@ -29,9 +29,9 @@ WebUI.click(findTestObject('Add To Cart/Page_Products  Kotakoki/img_AlbumProduct
 
 WebUI.waitForPageLoad(0)
 
-WebUI.setText(findTestObject('Add To Cart/Page_Album  Kotakoki/input_AlbumProductQty'), '2')
+WebUI.setText(findTestObject('Add To Cart/Page_Album/input_AlbumProductQty'), '2')
 
-WebUI.click(findTestObject('Add To Cart/Page_Album  Kotakoki/btn_Add To Cart'))
+WebUI.click(findTestObject('Add To Cart/Page_Album/btn_Add To Cart'))
 
-WebUI.verifyElementVisible(findTestObject('Add To Cart/Page_Album  Kotakoki/txtView_ProductHaveBeen AddedToYourCart'))
+WebUI.verifyElementVisible(findTestObject('Add To Cart/Page_Album/txtView_ProductHaveBeen AddedToYourCart'))
 

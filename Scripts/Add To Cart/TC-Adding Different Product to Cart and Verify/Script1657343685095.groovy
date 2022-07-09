@@ -17,9 +17,43 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Add To Cart/TC-Adding One Product to Cart and Verify'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser(GlobalVariable.url)
+
+WebUI.waitForPageLoad(0)
+
+WebUI.click(findTestObject('MainPageNavbar/btn_Shop'))
+
+WebUI.waitForPageLoad(0)
+
+WebUI.click(findTestObject('Add To Cart/Page_Products  Kotakoki/img_AlbumProduct'))
+
+WebUI.waitForPageLoad(0)
+
+WebUI.setText(findTestObject('Add To Cart/Page_Album/input_AlbumProductQty'), '1')
+
+WebUI.click(findTestObject('Add To Cart/Page_Album/btn_Add To Cart'))
+
+WebUI.verifyElementVisible(findTestObject('Add To Cart/Page_Album/txtView_ProductHaveBeen AddedToYourCart'))
 
 WebUI.click(findTestObject('Add To Cart/Page_Album/link_ViewCart'))
 
-WebUI.verifyElementVisible(findTestObject('Add To Cart/Page Cart/list_Product1(AlbumRp15.000Album quantityRp30.000)'))
+WebUI.click(findTestObject('Add To Cart/Page Cart/link_Continue Shopping'))
+
+WebUI.waitForPageLoad(0)
+
+WebUI.click(findTestObject('Add To Cart/Page_Products  Kotakoki/img_BeanieWithLogoProduct'))
+
+WebUI.waitForPageLoad(0)
+
+WebUI.verifyElementVisible(findTestObject('Add To Cart/Page_Beanie/txt_Beanie with Logo'))
+
+WebUI.setText(findTestObject('Add To Cart/Page_Beanie/input_Beanie with Logo Qty'), '3')
+
+WebUI.click(findTestObject('Add To Cart/Page_Album/btn_Add To Cart'))
+
+WebUI.verifyElementVisible(findTestObject('Add To Cart/Page_Album/txtView_ProductHaveBeen AddedToYourCart'))
+
+WebUI.click(findTestObject('Add To Cart/Page_Album/link_ViewCart'))
+
+WebUI.verifyElementVisible(findTestObject('Add To Cart/Page Cart/list_CartItems'))
 

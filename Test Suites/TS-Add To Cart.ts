@@ -26,6 +26,13 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>76d48b92-06d9-457d-adde-6934af322805</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Add To Cart/TC-Update Product At Cart</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>9176e97a-135e-40aa-a8fa-b8abe82dca02</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

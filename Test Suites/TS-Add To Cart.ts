@@ -26,10 +26,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>76d48b92-06d9-457d-adde-6934af322805</guid>
+      <guid>a560b944-1265-464b-92b9-9debd9bde711</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Add To Cart/TC-Update Product At Cart</testCaseId>
+      <testCaseId>Test Cases/Add To Cart/WP-4 Aldiransyah Rizky Putra - TC Update Product From Cart</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

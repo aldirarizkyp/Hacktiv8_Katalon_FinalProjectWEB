@@ -17,27 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFile('Include/features/WP-4 Aldiransyah Rizky Putra - TC Login Web.feature')
+CucumberKW.runFeatureFile('Include/features/WP-4 Aldiransyah Rizky Putra - TC Update Product From Cart.feature')
 
-WebUI.openBrowser(GlobalVariable.url)
+WebUI.callTestCase(findTestCase('Add To Cart/TC-Adding One Product to Cart and Verify'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Add To Cart/Page_Album/link_ViewCart'))
 
-WebUI.waitForPageLoad(0)
+WebUI.verifyElementVisible(findTestObject('Add To Cart/Page Cart/list_Product1(AlbumRp15.000Album quantityRp30.000)'))
 
-WebUI.click(findTestObject('MainPageNavbar/btn_Login'))
+WebUI.focus(findTestObject('Add To Cart/Update Cart/input_UpdateQtyFromCart'))
 
-WebUI.waitForPageLoad(0)
+WebUI.setText(findTestObject('Add To Cart/Update Cart/input_UpdateQtyFromCart'), '3')
 
-WebUI.click(findTestObject('Login/Page_Login  Kotakoki/input_Username'))
+WebUI.verifyElementClickable(findTestObject('Add To Cart/Update Cart/btn_UpdateCart'))
 
-WebUI.setText(findTestObject('Login/Page_Login  Kotakoki/input_Username'), username)
+WebUI.click(findTestObject('Add To Cart/Update Cart/btn_UpdateCart'))
 
-WebUI.click(findTestObject('Login/Page_Login  Kotakoki/input_Password'))
-
-WebUI.setEncryptedText(findTestObject('Login/Page_Login  Kotakoki/input_Password'), password)
-
-WebUI.click(findTestObject('Login/Page_Login  Kotakoki/btn_Login'))
-
-WebUI.verifyElementPresent(findTestObject('Register/Page_MyAccount/txt_Hello  (not  Log out)'), 0)
+WebUI.verifyElementVisible(findTestObject('Add To Cart/Update Cart/alert_Cart updated'))
 
